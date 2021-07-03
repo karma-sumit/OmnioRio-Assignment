@@ -44,20 +44,23 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
-######Note
+#### Note
 If you get any permission related issue for port.Please change the port in application.yml file. Default port is 9090 for this APP.
 
 ### APis: Please refer swagger for following APIs.
-1)To create a category
-2)To create category attributes
-3)To create a product by linking it to category and its attributes
-4)Get product by id
-5)get category attributes by category id
+1) To create a category.
+
+2)  To create category attributes.
+
+3)  To create a product by linking it to category and its attributes.
+
+4)  Get product by id.
+
+5)  get category attributes by category id.
 
 #### Swagger Documentation
 
-Swagger documentation is in-built in this app and can be accessed at the following URL -
-
- http://<host>:<port-number>>/swagger-ui.html#/catalog-controller
- ex:
- http://localhost:9090/swagger-ui.html#/catalog-controller
+> Swagger documentation is in-built in this app and can be accessed at the following URL:
+> 
+>   http://<host>:<port-number>>/swagger-ui.html#/catalog-controller  
+> example: http://localhost:9090/swagger-ui.html#/catalog-controller 
